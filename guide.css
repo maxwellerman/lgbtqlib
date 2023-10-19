@@ -1,0 +1,242 @@
+header {
+   background-color:#CEB888;
+}
+
+ form.searchbar {
+   width: 60%;
+   margin-right: auto !important;
+   border-color: transparent;
+   color: #FFF;
+   transition:none;
+ }
+
+ .form-control::placeholder {
+   color: white!important;
+ }
+
+ .form-control:focus {
+   box-shadow: none!important;
+   border-color: transparent!important;
+ }
+
+ .text-end {
+   float: right;
+ }
+
+ .btn-upload {
+   color: #FFF;
+   background-color: #000;
+   border-color: #CEB888;
+ }
+
+ .btn-upload:hover {
+   color: #000;
+   background-color: transparent;
+   border-color: #000;
+ }
+
+ .btn-resources {
+   color: #FFF;
+   background-color: #000;
+   border-color: #CEB888;
+ }
+
+ .btn-resources:hover {
+   color: #000;
+   background-color: transparent;
+   border-color: #000;
+ }
+
+ img.home {
+   height:35px;
+   color:#000;
+   margin-right: 15px;
+ }
+
+ img.upload-icon {
+   height:21px;
+   color:#000;
+ }
+
+ .divgap {
+   color: transparent;
+   height: 100px;
+ }
+
+ .section-heading {
+   margin-left: 5%;
+ }
+
+ .carousel-inner {
+   padding: 1em;
+ }
+ .card {
+   margin: 0 0.5em;
+   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+   border: none;
+ }
+ .carousel-control-prev,
+ .carousel-control-next {
+   background-color: #e1e1e1;
+   width: 6vh;
+   height: 6vh;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ @media (min-width: 768px) {
+   .carousel-item {
+     margin-right: 0;
+     flex: 0 0 33.333333%;
+     display: block;
+   }
+   .carousel-inner {
+     display: flex;
+   }
+ }
+ .card .img-wrapper {
+     max-width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .card img {
+     /*max-height: 100%;*/
+     height: 70%;
+ }
+ @media (max-width: 400px) {
+   .card .img-wrapper {
+     height: 17em;
+   }
+ }
+
+ .titleLink {
+   color:black;
+   text-decoration: none;
+ }
+
+ .titleLink:hover {
+   opacity:50%;
+ }
+
+ iframe {
+    width:100%;
+    max-height:100%;
+ }
+
+ .contentWindow {
+    margin:auto;
+    width:80%;
+    background-color:#000;
+    height:200%;
+    color:#FFF;
+  }
+
+  .infocontainer {
+    margin-top:10%;
+    background-color:#FFF;
+    width: 95%;
+    margin: auto;
+  }
+  
+  
+  .thumb {
+    width:100%;
+  }
+
+  .thumb:hover {
+    opacity: .75;
+  }
+
+  #contents {
+    padding: 10px;
+  }
+
+  h4:hover {
+    opacity: .75;         
+  }
+  
+  h4 {
+    color:#000
+  }
+
+  h5:hover {
+    opacity: .75;          
+  }
+
+  h5 {
+    color:#000
+  }
+
+  p.tags:hover {
+    opacity: .75;          
+  }
+
+  p.tags {
+    color:#000
+  }
+
+  .headingbox {
+    margin:auto;
+    width:95%;
+    padding-top:10%;
+    padding-bottom:2%;
+  }
+
+  #colB {
+    margin-right:20%;
+  }
+
+  #toprow {
+    vertical-align:bottom;
+  }
+
+  #headtext {
+    font-family: Lexend;
+  }
+
+  .titling {
+    font-family: Koulen;
+  }
+
+  .accordion {
+    background-color: #A8A8A8;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\002B'; /* Unicode character for "plus" sign (+) */
+    font-size: 25px;
+    color: #000;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2212"; /* Unicode character for "minus" sign (-) */
+  }
+   body {
+    font-family: "Lexend", sans-serif;
+    }
+
+    
+    .page-container {
+      width: 80%;
+      margin: auto;
+    }
